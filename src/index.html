@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/dist/output.css" />
-    <!-- <link rel="stylesheet" href="/src/index.css" /> -->
-
-    <!-- <style>
-      * {
-        border: 1px solid red;
-      }
-    </style> -->
+    <link rel="stylesheet" href="/dist/swiper-bundle.min.css" />
   </head>
 
   <body>
@@ -38,9 +32,9 @@
             </button>
 
             <!-- side bar -->
-            <div class="hidden fixed py-5 bg-white w-1/2 min-h-screen sm:max-h-none right-0 top-0 z- lg:block lg:max-w-full lg:bg-transparent" id="nav-mobile">
-              <div class="block mx-4 mt-0 lg:flex lg:flex-row lg:justify-center lg:gap-9">
-                <div class="flex flex-row justify-between lg:hidden">
+            <div class="hidden fixed mt-4 bg-white w-1/2 h-screen lg:pr-[136px] lg:h-min sm:max-h-none right-0 top-0 lg:block lg:max-w-full lg:bg-transparent" id="nav-mobile">
+              <div class="block ml-4 mr-8 mt-0 lg:flex lg:flex-row lg:justify-end lg:gap-9">
+                <div class="flex flex-row justify-between items-center lg:hidden">
                   <h3 class="font-bold font-sans text-sm">BCR</h3>
                   <button id="exit" name="exit" class="flex items-center">
                     <div>
@@ -52,7 +46,7 @@
                   </button>
                 </div>
 
-                <ul class="lg:flex lg:flex-row lg:justify-center lg:gap-9">
+                <ul class="lg:flex lg:flex-row lg:justify-between lg:gap-11">
                   <li class="py-2 font-sans text-sm">
                     <a href="#OurService" alt="OurService" class="hover:text-green">Our Service</a>
                   </li>
@@ -84,7 +78,7 @@
       <div class="w-full mx-auto lg:pl-[136px]">
         <div class="flex flex-wrap">
           <div class="self-center w-full p-4 lg:w-1/2">
-            <h1 class="font-bold text-4xl font-sans">Sewa & Rental Mobil Terbaik di kawasan Balikpapan</h1>
+            <h1 class="font-bold text-4xl font-sans">Sewa & Rental Mobil Terbaik di kawasan Tarakan</h1>
             <p class="mt-4 max-w-[468px]">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap meyalani kebutuhanmu untuk sewa mobil selama 24 jam</p>
             <button class="inline-flex mt-4 py-3 px-2 justify-center items-center rounded-sm bg-green">
               <span class="text-white font-semibold">Mulai Sewa Mobil</span>
@@ -95,29 +89,6 @@
             <div class="mt-6 lg:mt-9">
               <img src="/asset/img_car.png" alt="Mobil" class="w-full" />
             </div>
-            <!-- <div class="relative mt-10">
-              <img src="/asset/Mercedes Car EQC 300kW Edition.png" alt="Mobil" class="max-w-full mx-auto absolute bottom-0 z-10" />
-              <span class="absolute bottom-0 left-1/2 -translate-x-1/2">
-                <svg width="704" height="243" viewBox="0 0 704 243" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M0 60C0 26.8629 26.8629 0 60 0H704V243H0V60Z" fill="#0D28A6" />
-                </sv class="w-full">
-              </span>
-            </div> -->
-
-            <!-- </div> -->
-            <!-- <div class="w-fit relative z-0 ">
-              <div class="w-[380.22px] h-[118.81px] right-0 relative bg-blue-800 rounded-tl-[60px] z-10 ">
-                <img class="w-[380.22px] h-[199px] bottom-0 absolute origin-top-left z-20" src="/asset/Mercedes Car EQC 300kW Edition.png" />
-              </div>
-            </div> -->
-
-            <!-- <div class="items-center">
-              <div class="bg-dark-blue right-0 relative h-[118.813px] w-[344.216px] lg:w-[704px] lg:h-[243px] rounded-tl-[60px]">
-                <div class="z-20 max-w-full mx-auto absolute bottom-0 h-[199px] w-[344.216px] lg:w-[704px] lg:h-[407px]">
-                  <img src="/asset/Mercedes Car EQC 300kW Edition.png" alt="Mercedes car" />
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -128,14 +99,14 @@
     <div class="mx-auto" id="OurService">
       <div class="w-full mx-auto pt-[60px] lg:px-[136px] lg:pt-[104px]">
         <div class="flex flex-wrap lg:flex-nowrap lg:gap-[100px]">
-          <div class="flex justify-center w-full lg:w-1/2">
+          <div class="flex justify-center items-center w-full lg:w-1/2">
             <img src="/asset/img_service.png" class="lg:max-w-[459px] lg:max-h-[428px]" />
           </div>
 
           <div class="flex self-center px-4 w-full pt-6 lg:w-1/2">
             <div class="flex flex-col gap-4">
               <div class="font-sans font-bold text-2xl">
-                <h2>Best Car Rental for any kind of trip in Balikpapan!</h2>
+                <h2>Best Car Rental for any kind of trip in Tarakan!</h2>
               </div>
               <div class="font-sans font-light text-sm">
                 <p>Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.</p>
@@ -295,12 +266,230 @@
     <div class="mx-auto" id="Testimonial">
       <div class="w-full mx-auto lg:pt-[100px] pt-[60px]">
         <div class="flex flex-col">
-          <div class="px 4 gap-4">
+          <div class="px-4">
             <h3 class="text-center font-sans font-bold text-2xl">Testimonial</h3>
-            <p class="text-center font-sans font-light text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            <p class="text-center font-sans font-light text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+          </div>
+          <!-- <div class="flex flex-col">
+            <div>
+              <div id="default-carousel" class="relative w-full px-4 lg:px-[136px]" data-carousel="slide">
+                <div class="relative mx-auto rounded-lg md:h-96 bg-red">
+                  <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                      <div class="flex justify-center">
+                        <div class="lg:max-w-[619px] px-4 w-full">
+                          <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                            <div class="flex justify-center w-full lg:w-[15%] items-center">
+                              <img src="/asset/img_photo (2).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                            </div>
+
+                            <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                              <div class="flex justify-center lg:justify-start">
+                                <img src="/asset/Rate.png" />
+                              </div>
+                              <div class="w-full font-sans text-sm">
+                                <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                      <div class="flex justify-center">
+                        <div class="lg:max-w-[619px] px-4 w-full">
+                          <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                            <div class="flex justify-center w-full lg:w-[15%] items-center">
+                              <img src="/asset/img_photo (1).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                            </div>
+
+                            <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                              <div class="flex justify-center lg:justify-start">
+                                <img src="/asset/Rate.png" />
+                              </div>
+                              <div class="w-full font-sans text-sm">
+                                <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                      <div class="flex justify-center">
+                        <div class="lg:max-w-[619px] px-4 w-full">
+                          <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                            <div class="flex justify-center w-full lg:w-[15%] items-center">
+                              <img src="/asset/img_photo (2).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                            </div>
+
+                            <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                              <div class="flex justify-center lg:justify-start">
+                                <img src="/asset/Rate.png" />
+                              </div>
+                              <div class="w-full font-sans text-sm">
+                                <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                      <div class="flex justify-center">
+                        <div class="lg:max-w-[619px] px-4 w-full">
+                          <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                            <div class="flex justify-center w-full lg:w-[15%] items-center">
+                              <img src="/asset/img_photo (1).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                            </div>
+
+                            <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                              <div class="flex justify-center lg:justify-start">
+                                <img src="/asset/Rate.png" />
+                              </div>
+                              <div class="w-full font-sans text-sm">
+                                <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                    <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+                      <div class="flex justify-center">
+                        <div class="lg:max-w-[619px] px-4 w-full">
+                          <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                            <div class="flex justify-center w-full lg:w-[15%] items-center">
+                              <img src="/asset/img_photo (2).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                            </div>
+
+                            <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                              <div class="flex justify-center lg:justify-start">
+                                <img src="/asset/Rate.png" />
+                              </div>
+                              <div class="w-full font-sans text-sm">
+                                <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                                <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex flex-row justify-center mt-4 lg:mt-6 gap-6">
+                  <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer focus:outline-none" data-carousel-prev>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-sky-900 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
+                      <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+                      </svg>
+                    </span>
+                  </button>
+
+                  <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-sky-800 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                      <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                      </svg>
+                      <span class="sr-only">Next</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Mode pasrah -->
+          <div class="px-4 mx-auto mt-10">
+            <div class="flex lg:flex-row mx-auto overflow-x-auto overflow-auto">
+              <div class="lg:max-w-[619px] px-4 w-full hidden lg:block">
+                <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                  <div class="flex justify-center w-full lg:w-[15%] items-center">
+                    <img src="/asset/img_photo (1).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                  </div>
+
+                  <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                    <div class="flex justify-center lg:justify-start">
+                      <img src="/asset/Rate.png" />
+                    </div>
+                    <div class="w-full font-sans text-sm">
+                      <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                      <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:max-w-[619px] px-4 w-full">
+                <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                  <div class="flex justify-center w-full lg:w-[15%] items-center">
+                    <img src="/asset/img_photo (2).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                  </div>
+
+                  <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                    <div class="flex justify-center lg:justify-start">
+                      <img src="/asset/Rate.png" />
+                    </div>
+                    <div class="w-full font-sans text-sm">
+                      <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                      <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="lg:max-w-[619px] px-4 w-full hidden lg:block">
+                <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
+                  <div class="flex justify-center w-full lg:w-[15%] items-center">
+                    <img src="/asset/img_photo (1).png" class="max-w-[80px] max-h-[80px] flex justify-center items-center" />
+                  </div>
+
+                  <div class="flex flex-col gap-6 lg:w-[85%] w-full">
+                    <div class="flex justify-center lg:justify-start">
+                      <img src="/asset/Rate.png" />
+                    </div>
+                    <div class="w-full font-sans text-sm">
+                      <p class="font-light max-w-[415px]">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod”</p>
+                      <h4 class="mt-2 flex justify-start font-semibold">John Dee 32, Bromo</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row justify-center mt-4 lg:mt-6 gap-6">
+              <button class="rounded-full border-2 border:border hover:bg-green">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
+                  <path d="M15 18L9 12L15 6" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+              <button class="rounded-full border-2 border:border hover:bg-green">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none ">
+                  <path d="M9 18L15 12L9 6" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            </div>
           </div>
 
-          <div class="border lg:mt-10 mt-4">
+          <!-- Card  -->
+          <!-- <div class="border lg:mt-10 mt-4">
             <div class="lg:max-w-[619px] px-4 w-full">
               <div class="flex flex-wrap lg:flex-nowrap border rounded-lg py-10 px-8 gap-6 lg:gap-[46px] lg:pl-[46px] lg:py-[69px] lg:pr-8 bg-abu-putih">
                 <div class="flex justify-center w-full lg:w-[15%] items-center">
@@ -318,8 +507,8 @@
                 </div>
               </div>
             </div>
-          </div>
-
+          </div> -->
+          <!-- 
           <div class="flex flex-row justify-center mt-4 lg:mt-6 gap-6">
             <button class="rounded-full border-2 border:border hover:bg-green">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none">
@@ -331,7 +520,7 @@
                 <path d="M9 18L15 12L9 6" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               </svg>
             </button>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -343,7 +532,7 @@
       <div class="w-full mx-auto pt-[60px] lg:px-[136px] lg:mt-[100px]">
         <div class="mx-4 px-[33.75px] py-8 rounded-[13px] bg-dark-blue">
           <div class="flex flex-col p-4 justify-center items-center">
-            <h1 class="text-center font-sans font-bold text-2xl md:text-4xl max-w-[212px] md:max-w-[613px] text-white">Sewa Mobil di Balikpapan Sekarang</h1>
+            <h1 class="text-center font-sans font-bold text-2xl md:text-4xl max-w-[212px] md:max-w-[613px] text-white">Sewa Mobil di Tarakan Sekarang</h1>
             <p class="text-center max-w-[212px] font-sans font-light text-sm mt-4 text-white md:max-w-[468px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <button class="inline-flex mt-8 py-3 px-2 justify-center items-center rounded-sm bg-green">
               <span class="text-white font-semibold font-sans text-sm">Mulai Sewa Mobil</span>
@@ -526,5 +715,6 @@
 
     <script src="script.js"></script>
     <script src="../node_modules/flowbite/dist/flowbite.js"></script>
+    <!-- <script src="../dist/swiper-bundle.min.js"></script> -->
   </body>
 </html>
