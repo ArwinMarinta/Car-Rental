@@ -18,9 +18,27 @@ exit.addEventListener("click", function () {
 //   const header = document.querySelector("navbar");
 //   const fixedNav = header.offsetTop;
 
-//   if (window.onscroll > fixedNav) {
+//   if (window.pageYOffset > fixedNav) {
 //     header.classList.add("navbar-fixed");
 //   } else {
 //     header.classList.remove("navbar-fixed");
 //   }
 // };
+
+// Slide Testimoni
+// let sliderContainer = document.getElementById("slideContainer");
+// let slider = document.getElementById("slider");
+// let card = slider.getElementById("li");
+
+// let elementsToShow = 2;
+
+// let slideContainerWidth = sliderContainer.clientWidth;
+
+// let cardWidth = slideContainerWidth / elementsToShow;
+
+// slider.style.width = card.length * cardWidth + "px";
+
+// for (let index = 0; index < card.length; index++) {
+//   const element = card[index];
+//   element.style.width = cardWidth + "px";
+// }
